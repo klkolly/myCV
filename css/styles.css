@@ -1,0 +1,30 @@
+
+body{
+    box-sizing: border-box;
+    background-color:#e7e7de;
+}
+img{ 
+    border-radius: 40%; 
+    width: 150px; 
+    height:180px;
+}
+.skillTable{
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100px;
+    margin-left: 30px;
+    
+}
+
+tr{
+    height: 5px;
+    line-height: 18px;
+    height: 10px;
+    
+}
+
+h3{
+    border: 200px;
+}
+
