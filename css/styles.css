@@ -3,6 +3,12 @@ body{
     box-sizing: border-box;
     background-color:#e7e7de;
 }
+
+.myimg {
+    width:170px;
+}
+
+
 img{ 
     border-radius: 40%; 
     width: 150px; 
@@ -12,7 +18,7 @@ img{
     
     border-collapse: collapse;
     border-spacing: 0;
-    width:100px;
+    width:300px;
     margin-left: 30px;
     
 }
@@ -28,3 +34,10 @@ h3{
     border: 200px;
 }
 
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width:5%;
+    border-width: 5px;
+    color:gray;
+}
