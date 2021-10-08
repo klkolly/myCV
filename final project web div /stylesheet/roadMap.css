@@ -1,0 +1,178 @@
+body {
+    background-color: #f9f7f7;
+    font-family: "Arvo", serif;
+}
+  
+h1,
+h2,
+h3,
+h4 {
+font-family: "Noto Sans", sans-serif;
+}
+
+p {
+text-align: center;
+}
+
+.sectioncontent {
+padding: 7% 15%;
+text-align: center;
+}
+
+
+.unvisableItem{
+display: none;
+}
+
+/* index page */
+/* intro section */
+.bluebackGround {
+background-color: #112d4e;
+color: white;
+}
+.intro {
+padding: 3% 10%;
+}
+
+.bg-darkblue {
+background-color: #112d4e !important;
+}
+
+.navbar-brand {
+color: #f9f7f7;
+}
+
+
+.bar{
+    height:500px;
+}
+
+
+ /* cheer up quote */
+.cheerUp{
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    background-color: #3f72af;
+    color: #f9f7f7;
+    min-height: 3rem;
+    font-size:2rem;
+    padding: 2% 15%;
+}
+
+/* inprogress card */
+
+
+
+
+.continue{
+    position: relative;
+    left:50%;
+}
+.roadmapCard{
+    width: 15rem;
+    display: inline-block;
+}
+
+.progressCard{
+    
+    color: black;
+}
+
+.progressCards{
+    padding:2% 0;
+    
+}
+.progressCard span{
+    position:absolute;
+    top:5px;
+    left:5px;
+    font-size: .5rem;
+
+}
+.progressCard .card-title{
+    font-size:1rem;
+}
+.progressCard h6{
+    font-size: .75rem;
+}
+
+/* roadmap card */
+.goal{
+    color:#f8b500;
+    background: #393e46;
+    font-size: 2rem;
+
+}
+
+
+.roadmapCard{
+    margin:1% 1%;
+}
+.levelBar{
+    padding:2% 10%;
+}
+
+
+.levelBar{
+    position: relative;
+}
+
+.levelName{
+    position: absolute;
+    top:10px;
+    left: 30px;
+}
+
+
+
+.scientificFields {
+    border: 1px solid #a2a9b1;
+    
+    border-radius: 5%;
+    
+    
+}
+
+.scientificFields a{
+    color:green;
+}
+
+.cardInProgress
+{
+    background: linear-gradient(135deg, #f8b500, #f7f7f7 25%);
+}
+
+.cardFinished
+{
+    background: linear-gradient(135deg, rgb(83, 226, 83), #f7f7f7 25%);
+}
+
+.cardNot
+{
+    background: linear-gradient(135deg, #5c636e, #f7f7f7 25%);
+}
+
+.roadmapDetail{
+    background:#3f72af;
+    color:white;
+}
+
+.learnedCourse{
+    padding: 2% 10%;
+}
+
+.addlearn{
+    height: 150px;
+    width: 130px;
+    border:grey dashed 3px;
+    text-align: center;
+    font-size: 10rem;
+    position: relative;
+    color: gray;
+    
+}
+
+.addlearn span{
+    position: relative;
+    top:-50px
+}

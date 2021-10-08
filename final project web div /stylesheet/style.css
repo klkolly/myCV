@@ -1,0 +1,808 @@
+body {
+  background-color: #f9f7f7;
+  font-family: "Arvo", serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+p {
+  text-align: left;
+}
+
+.sectioncontent {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+.unvisableItem{
+  display: none;
+}
+
+/* index page */
+/* intro section */
+.navButton{
+  margin-right: 1rem;
+}
+
+
+.bluebackGround {
+  background-color: #112d4e;
+  color: white;
+}
+.intro {
+  padding: 3% 10%;
+}
+
+.bg-darkblue {
+  background-color: #112d4e !important;
+}
+
+.navbar-brand {
+  color: #f9f7f7;
+}
+
+.introContent {
+  color: #f9f7f7;
+}
+
+.introHead1 {
+  margin-top: 5rem;
+  font-size: 3.5rem;
+}
+
+.introHead2 {
+  margin-top: 2rem;
+  font-size: 3.5rem;
+}
+
+.introSearch {
+  margin-top: 6rem;
+}
+.introImgAll {
+  position: relative;
+}
+
+.introImg {
+  position: absolute;
+  width: 45%;
+}
+
+.introImg2 {
+  left: 25%;
+  top: 35%;
+}
+.introImg3 {
+  left: -5%;
+  top: 65%;
+}
+
+/* trend see more */
+.seeMore a{
+  color: rgb(84, 84, 199);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+.seemoreArrow {
+  font-size: 3rem;
+  animation: bounce 1.5s linear infinite;
+}
+
+/* source school */
+
+.sourcehead {
+  text-align: center;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 10rem;
+}
+
+.carouselPic {
+  width: 15rem;
+  height: 8rem;
+  margin: auto 2rem;
+}
+
+.carouselpics {
+}
+
+/* feature section */
+
+.features {
+  padding: 7% 10%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin: 1rem;
+  color: #3f72af;
+}
+
+.iconboxcontent {
+  color: #617083;
+}
+
+/* callto action section */
+
+.calltoaction h2 {
+  margin: 3rem auto;
+}
+
+.calltoaction button {
+  margin: auto 1rem;
+}
+
+/* footer */
+
+.icons {
+  text-align: center;
+  padding: 7% 15%;
+}
+.footericon {
+  margin: auto 3%;
+  color: #112d4e;
+}
+
+
+.footer{
+  background-color: #dbdbe1;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+.copyRight{
+  text-align: center;
+}
+
+
+
+/* copy medium */
+
+/* trend section */
+
+.trend {
+  padding: 7% 15%;
+}
+.trendarticle {
+  padding: 2% 2%;
+}
+
+.trendarticle a {
+  color: black;
+}
+
+.trendarticle img {
+  width: 20px;
+  border-radius: 70%;
+}
+.trendarticle div h6 {
+  display: inline-block;
+  font-size: 0.75rem;
+}
+
+.trendarticle h2 {
+  font-size: 1.2rem;
+  min-height: 3.5rem;
+}
+.trendarticle .info {
+  color: gray;
+  font-size: 0.75rem;
+}
+.trendarticle .info span {
+  color: gray;
+  font-size: 0.75rem;
+}
+.trendarticle .info .dot {
+  margin: auto 1rem;
+}
+
+/* mainsection */
+
+#mainsection {
+  display: grid;
+  width: 100%;
+
+  grid-template-areas: "leftarticals rightitem";
+  grid-template-rows: 70% 30%;
+}
+
+/* main section left */
+.leftarticals {
+  grid-area: leftarticals;
+  width: 60rem;
+}
+
+.articles {
+  padding: 2% 15%;
+}
+
+
+/* grid the article in main page */
+.article {
+  display: grid;
+  grid-template-areas: "leftcontent rightimg";
+  grid-template-columns: 70% 30%;
+  margin: 2rem 0;
+}
+
+
+/* article detial page */
+.articlemain {
+  display: grid;
+  grid-template-areas: "leftcontent rightaside";
+  grid-template-columns: 70% 30%;
+  padding: 2% 10%;
+  
+}
+
+.leftcontent {
+  grid-area: leftcontent;
+  padding: 0 5%;
+
+}
+
+.leftcontent p{
+text-align: left;
+margin-top: 3%;
+}
+
+.leftcontent a{
+color: #000;
+}
+.leftcontent a h2{
+height: 3rem;
+}
+
+.leftcontent a p{
+height: 3rem;
+margin-bottom: 1rem;
+}
+
+
+hr.articleContentLine{
+border-top: 5px dotted grey;
+width:10%;
+}
+
+.articlemain .leftcontent h3{
+font-weight: bold;
+margin: 2rem 0 0 0;
+text-align: left;
+}
+
+.articlemain .leftcontent ul{
+text-align:left;
+list-style-type: circle;
+
+}
+
+.articlemain .leftcontent figure img{
+width: 100%;
+}
+
+.articlemain .leftcontent figure figcaption{
+width: 100%;
+text-align: left;
+color:rgb(177, 171, 171);
+}
+
+.articlemain .leftcontent table ,.articlemain .leftcontent tr,.articlemain .leftcontent td,.articlemain .leftcontent th{
+
+border: .5px solid gray;
+
+}
+
+.articlemain .leftcontent table {
+width:70%;
+height: 40px;
+
+}
+
+.articlemain .leftcontent table caption{
+text-align: center;
+caption-side: top;
+}
+
+
+.article .leftcontent {
+  grid-area: leftcontent;
+}
+
+.article .leftcontent p {
+  text-align: left;
+  color: gray;
+  margin-bottom: .5rem;
+  height: 3rem;
+}
+
+.article .leftcontent h2 {
+  display: table-cell;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.article .leftcontent .authorinfo h6 {
+  display: inline-block;
+  color: gray;
+  font-size: .75rem;
+}
+
+.article .leftcontent .authorinfo img {
+  
+  height: 1.5rem;
+  /* margin: 2% 2% 4% 0%; */
+}
+
+.article .readinfo {
+  color: gray;
+  font-size: 0.75rem;
+}
+
+.readinfo .dot {
+  margin: auto 1rem;
+}
+
+.article .rightimg {
+  grid-area: rightimg;
+  position: relative;
+}
+.rightimg div{
+  position: absolute;
+  width:90%;
+  height:80%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  
+}
+.rightimg img{
+
+  width:100%;
+  height: 100%;
+
+}
+
+/* rightitems */
+.rightitem {
+  grid-area: rightitem;
+  width: auto;
+}
+
+
+.rightitem h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+.topics {
+  padding: 7% 15%;
+}
+.rightitem a p{
+  text-align: center;
+  color: #000;
+}
+
+.topic {
+  display: inline-block;
+}
+
+.topic p {
+  border-style: solid;
+  margin: 0.2rem 0.2rem;
+  border-radius: 30%;
+  border-width: 1.2px;
+  padding: 1px 10px;
+}
+
+.viewlistitems {
+  list-style: none;
+  /* margin-top: 50px; */
+}
+
+.fixViewList{
+  position: fixed;
+  top:-30px;
+  left: 960px;
+  /* margin-top: 25px; */
+}
+
+
+
+.viewlistitem {
+  display: flex;
+  margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.rightlistpic {
+  height: 100%;
+}
+
+.viewlistitem img {
+  width: 7rem;
+  float: right;
+}
+.viewlistcontent{
+    padding: 5% 5%;
+}
+
+.viewlistcontent p{
+
+  text-align: left;
+  margin:0;
+}
+
+
+/* article details */
+
+/* article page */
+
+.articlehead{
+    text-align: left;
+    padding: 0 15%;
+}
+
+.articlehead h2{
+  margin: 4rem auto;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.articlehead p{
+  color: #617083;
+  text-align: left;
+}
+
+.quote{
+  font-style: italic;
+  padding-left: 5%;
+  border-left-style: solid;
+  border-left-width: .5rem;
+  border-left-color: black;
+  color: gray;
+}
+
+
+
+
+.articlehead .authorShare{
+  text-align: left;
+}
+
+.sharelinks{
+    margin-left: 80%;
+    display: inline-block;
+}
+
+
+.authorShare img{
+    border-radius: 70%;
+    height: 2rem;
+}
+
+
+
+
+
+/* .comment section */
+
+.comments form input{
+  width:100%;
+  height:3rem;
+  margin-bottom: .5rem;
+}
+
+
+.commentFull{
+  display: grid;
+  grid-template-areas: 'commentLeft commentRight';
+  grid-template-columns: 5rem auto;
+}
+
+
+
+.commentLeft{
+  grid-area: commentLeft;
+  text-align: initial;
+  display: grid;
+  grid-template-areas: 'commentLeftImg' 
+                       'lightBox';
+  grid-template-rows: 30px auto;
+
+}
+
+.commentLeft .lightBox{
+  grid-area: lightBox;
+  background-color: black;
+  width:5px;
+  height: 95%;
+  position: relative;
+  left:50%;
+  top:4.5%;
+
+  
+}
+
+.lightBox:hover{
+  background-color: gray;
+}
+
+.commentLeft img{
+  grid-area: commentLeftImg;
+  width:30px;
+  border-radius: 70%;
+  margin-left: 35%;
+  
+}
+
+.commentRight{
+  grid-area: commentRight;
+  text-align: left;
+  display: grid;
+  grid-template-areas: 'commentRightAuthorName' 
+                       'commentRightItems'
+                       ;
+  grid-template-rows: 30px auto;
+  
+}
+
+.commentHide{
+  text-align: left;
+  color:gray;
+  margin-left: 3rem;
+}
+
+/* 
+ right link */
+
+ .rightaside {
+  grid-area: rightaside;
+  text-align: left;
+  margin-top: 5%;
+}
+
+
+
+.rightaside ul li a{
+  color: black;
+}
+
+
+
+/* search course */
+
+.searchMainsection{
+  padding: 2% 5%;
+}
+
+.searchMainsection h1{
+  font-weight: bold;
+}
+
+.search button{
+  background: blue;
+  color: white;
+  border:none;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  right:3px;
+}
+
+button.disabled{
+  border-color: gray !important;
+  
+}
+button.disabled a{
+  color: rgb(172, 172, 172)!important;
+}
+
+.search input{
+  border-right: none;
+  width:50%;
+  border:gray solid 1px;
+}
+
+
+.course{
+  position: relative;
+}
+
+.course .courseName h2{
+  font-weight: lighter;
+}
+
+
+.course .schoolinfo img{
+  height:2rem;
+}
+.course .schoolinfo h6{
+  display: inline-block;
+  color: gray;
+}
+.course .schoolinfo{
+  display: inline-block;
+}
+
+.course .leftbutton{
+  display: inline-block;
+  position: absolute;
+  right:10%;
+  top:30%;
+}
+.course .leftbutton button{
+  display: inline;
+  border: blue solid 2px;
+  border-radius: 10%;
+  padding: 5px 5px;
+  margin: 0 10px;
+  
+
+}
+.course .leftbutton button a{
+  color:black;
+}
+
+
+
+/* review page */
+
+
+.rewiewMainsection{
+  padding: 2% 5%;
+}
+#reviewInput{
+  width:50%;
+  height: 10rem;
+}
+
+
+.rating input{
+  display: none;
+}
+
+.rating label {
+  
+  cursor: pointer;
+  background: #ccc;
+  font-size: 2em;
+  color:gray;
+}
+
+.rating label:hover{
+  background: blue;
+}
+
+.hoverOnRating{
+  background-color: blue;
+}
+
+.checkedOnRating{
+  background-color: blue;
+}
+
+.reviewForm button{
+  position: relative;
+  left:45%;
+  border-radius: 10%;
+  background: blue;
+  color: white;
+  border:none;
+  height: 2rem;
+  
+}
+
+.reviewForm button:hover{
+  background-color: rgb(62, 62, 241);
+}
+/* 
+Responsive */
+@media screen and (max-width: 996px) {
+  .introImg {
+    display: none;
+  }
+}
+
+
+
+
+
+/* for handphone */
+@media screen and (max-width: 480px) {
+  #mainsection .rightitem{
+    display: none;
+  }
+  .rightaside{
+    display:none;
+  }
+  .articlemain{
+    display: block;
+  }
+
+  #mainsection{
+    grid-template-areas:initial;
+  }
+  
+  .leftarticals{
+    grid-area: initial;
+    width: 100%;
+    
+  }
+  .leftarticals .articles{
+    padding: 0 0 ;
+    width:100%;
+  }
+
+
+
+
+
+  .article {
+    display: grid;
+    grid-template-areas:  "rightimg"
+                          "leftcontent" ;
+    grid-template-columns:initial;
+    
+    width:100%;
+  }
+  .article .leftcontent a h2{
+    height: auto;
+  }
+  .article .leftcontent a {
+    line-height: initial;
+  }
+
+
+
+  .rightimg{
+    width:100%;
+    
+  }
+
+
+/* search main page */
+
+
+
+.searchMainsection .course .leftbutton{
+  position: relative;
+  text-align: center;
+  display: block;
+  margin:auto auto;
+  right: auto;
+
+}
+
+/* review page */
+
+#reviewInput{
+  width: 100%;
+}
+
+
+}

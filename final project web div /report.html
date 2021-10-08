@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>report</title>
+    <style>
+        figure img{
+            vertical-align: text-top;
+            margin-right: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Report: Large Coursework </h1>
+    <h2>Lingyu Kong</h2>
+    <hr>
+
+    <h3>Introduction: What is the essential story being told by your site and what type of structure did you choose to
+        implement.</h3>
+    <p>
+        the web is base on an Independent Learner communication club, and the major topic in computer science, we talk
+        about what course is better, the new release course, open course source, and roadmap. there are many thoughtful
+        talks and good experience from learners.
+    </p>
+
+    <p>
+        but, the group chat form has its limit :
+    <ul>
+        <li>not everyone talksthe same topic at the same time, so sometime you will confuse what's the topic he/she was
+            talking</li>
+        <li>so the thoughtful talk and good experience can only help the limited people in the chat room</li>
+        <li>many new learners have the same question, so somebody should talk beginner guide, again and again, the
+            better way is they can search for this information</li>
+    </ul>
+    so the club need a web to for discuss differents topic like "slack" or "Reddit", to communication and convert
+    discuss to articles like "medium", and have the search function .
+    </p>
+    <br>
+    <h3>State 3 things that have inspired you when creating your website. These could include guest speakers, other
+        websites, artists, developers etc.</h3>
+    <p>
+        there are MOOCs like Mitocw, Coursera, edx that provide Free Online Courses from Top Universities, but it's more
+        like dots, no clear path to some goal.
+    </p>
+    <p>
+        and network of communities based on people's interests web: Reddit, even in Independent Learner communication
+        club, there are different topics like jobs, which class to choose or some problems from the course (because many
+        free courses don't have official discuss)
+    </p>
+    <p>
+        where expert and undiscovered voices can share their writing on any topic: medium, I like the design medium show
+        articles, it's minimal and cleans it makes me calm down and willing to read.
+        so the learner can share their experience var article , so it can help more learner
+    </p>
+    <br>
+
+    <h3>State 3 ways in which your site is accessible.</h3>
+    <p>
+        proper use of colour and font so the web colour is select from the design web called colorhunt, the main colour
+        is kind blue, to make a calm environment.
+        the font colour is white when the background colour is blue, it's easy to read. and font family use "Arvo",
+        "Noto Sans", easy to read.
+    </p>
+    <p>
+        Keyboard-Friendly : you can easily use keyboard surf through all pages.
+    </p>
+    <p>
+        image accessible: Add proper Alt Text to All Images.
+    </p>
+
+    <br>
+    <h3>State 3 ways in which you have considered usability in your site.</h3>
+    <p>
+        Navigation Design: it's easy to tap the logo and return to the main page on every page. and the navbar the
+        footer nav is the same design
+    </p>
+    <p>
+        Consistency from page to page. a consistent theme, layout, and colour throughout the entire website. the web
+        page is in an F pattern.
+        black colour in the title, grey colour in additional information
+    </p>
+    <p>
+        Mobile optimization. design website elements where the thumb can reach. decided element visible or hidden for
+        mobile or computer.
+    </p>
+
+    <br>
+    <h3>State 3 things you had to learn/find out by yourself when creating your site, and describe how you did that
+        (i.e. what searches you did, any new tools/techniques you learned, any changes/adaptations you made to a
+        particular resource to make it work with your site). </h3>
+    <p>
+        learn how to implement Scroll-Then-Fix Content in MainPage, first, there are always "new" article, so on the
+        left side, there is article flow, but some old but good article also needs to be shown, and Scroll-Then-Fix
+        Content fills the propose, and the problem is I don't know the word "Scroll-Then-Fix", so can't find what I
+        want, so I do the difficult way, use chrome to check the element siting, and find when Scroll down, the old
+        element display change to "none", and another element show and follow the screen, so next problem is to find
+        when to hide, so I choose to use jquery scrollTop() function, and when windows scroll down to the position, make
+        hide fixed element to show.
+    </p>
+    <p>
+        rating star function on the review page, when you write a review, there is always a rate function, and the
+        rating star should 1) change colour when hover 2) stay light colour when click star 3) post information when
+        submitting. so I use youtube to find how others to do this [1] Online Tutorials and reimplement use HTML + CSS +
+        Jquery
+    </p>
+    <p>
+
+        the comment function in article page, to know who is talking to whom it's more clear to show comment in
+        different level, and make a bar you can click when you don't want to see this chunk of comments, and Reddit
+        doing this, I thought they use something like "list-in-list", but use chrome tools I find they use div in div,
+        so first, I design a single comment structure, and then add child comment, after This the next problem is when
+        clicking the left bar, to hide all child comment, I use jquery to select the bar element father element to do
+        this.
+    </p>
+
+    <br>
+    <h3>What aspect(s) of your work do you think worked well and why?</h3>
+
+    <p>
+        the road map page is worked pretty well, because a single course is more like a dot, sometime you have to link
+        dots into a map to reach the goal, so I design this page, you can add what you have learned, and design your
+        path the roadmap and follow the roadmap you know how to reach the goal.
+        On this page, you can easily continue what you learning and see clearly what you have finished and what need to
+        do next. it's good to have a plan when study.
+    </p>
+    <p>
+        the main page is doing well for show articles, everyone has their own interests, only show popular article don't
+        fit for everyone, so I design a slide content that you can choose the topic your interests in, and the site can
+        do some back-end work to suit the article topic for visitor. and what I did is use javascript to take the
+        article value, transform it into HTML and add the HTML to the main page article. the content can be updated
+        easily.
+    </p>
+
+
+
+    <h3>What aspect(s) of your work could be improved, and how might you do things differently another time?</h3>
+    <p>
+        there are improve can be made to mainpage, when adding article HTML to the page, I just mixed text together, not
+        easy to read or change, so use template like mustache is a better way, it's more readable and easy to debug.
+
+
+    </p>
+
+    <h3>What resources were used when creating your work? You should list here any sources of information, libraries,
+        plug-ins or other code that you used to create your site. You should also reference any code you've used by
+        inserting comments at the start of the scripts. </h3>
+
+    <ul>
+        <li>
+            bootstrap [2]
+        </li>
+        <li>
+            jquery [3]
+        </li>
+        <li>
+            mustache[4]
+        </li>
+        <li>
+            content from medium [5] and class center[6]
+        </li>
+
+        <li>
+            icon made from favicon
+        </li>
+        <li>
+            icon from fontawesome[7]
+        </li>
+        <li>
+            picture from google
+        </li>
+        <li>
+            color from colorhunt [8]
+        </li>
+        <li>
+            font from google fonts
+        </li>
+    </ul>
+
+
+
+
+
+
+
+    <h3>Appendices: Site Map, Wireframes and Mockups</h3>
+    <img src="images/sitemap.png" width="100%" alt="site map">
+
+    <figure class="reportWireframes"> 
+        <img width="35%" src="images/report/index.html.png" >
+        <img width="15%" src="images/report/index.html (Phone).png" >
+        <figcaption>intro page</figcaption>
+    </figure>
+
+    <figure> 
+        <img width="35%" src="images/report/mainpage.html.png" >
+        <img width="15%"  src="images/report/mainpage.html (Phone).png" >
+        <figcaption>main page</figcaption>
+    </figure>
+
+    <figure class="reportWireframes"> 
+        <img width="35%" src="images/report/article.html.png" >
+        <img width="15%" src="images/report/article.html(Phone).png" >
+        <figcaption>article page</figcaption>
+    </figure>
+
+    <figure class="reportWireframes"> 
+        <img width="35%" src="images/report/searchCourse.html.png" >
+        <img width="15%" src="images/report/searchCourse.html (Phone).png" >
+        <figcaption>search page</figcaption>
+    </figure>
+
+    <figure class="reportWireframes"> 
+        <img width="35%" src="images/report/review.html.png" >
+        <img width="15%" src="images/report/review.html (Phone).png" >
+        <figcaption>review page</figcaption>
+    </figure>
+
+    <figure class="reportWireframes"> 
+        <img width="35%" src="images/report/myRodeMap.html.png" >
+        <img width="15%" src="images/report/myRodeMap.html (Phone).png" >
+        <figcaption>roadmap page</figcaption>
+    </figure>
+
+    
+
+    
+
+    <hr>
+
+    <h3> citing code and online resource:</h3>
+    <p>
+        <!-- [1] Author Initial, Author Surname, 'Title of program/source code' (), Year Published. [Type]. Web address or publisher.
+        Example:
+        [1] P. Korponaić, 'Meteor Kitchen examples' (commit 0abcf1c), 2016. [Source code]. https://github.com/perak/kitchen-examples/tree/master/example-minimal
+        Format for citing online resource:
+        [1] Author Initial. Author Surname, 'Title', Year Published. [Online]. Available: http://Website URL. [Accessed: 10- Oct- 2013].
+        Example:
+        [1] Handlebarsjs.com, 'Handlebars Reference', 2016. [Online]. Available: http://handlebarsjs.com/reference.html. [Accessed: 20- Sep- 2016].
+     -->
+        [1] Online Tutorials, 'Pure CSS Star Rating Widget - How To Create a Simple Star Rating with Html and CSS - No
+        Javascipt', 2018. [Online]. Available:https://www.youtube.com/watch?v=Ep78KjstQuw . [Accessed: 20- Sep- 2016].
+        <br>
+        [2] bootstrap [Online]Available: https://getbootstrap.com/
+
+        <br>
+        [3] jquery [Online] https://jquery.com/
+
+        <br>
+        [4] mustache [Online] Available: http://mustache.github.io/
+        <br>
+        [5] medium [Online] Available:https://medium.com/
+        <br>
+        [6] classcentral "How The Open University Works: An Insider’s Perspective" [Online] 2020
+        Available:https://www.classcentral.com/report/open-university-insiders-perspective/
+        <br>
+        [7] fontawesome [Online] Available: https://fontawesome.com/
+        <br>
+        [8] colorhunt [Online] Available: https://colorhunt.co/palette/225739
+    </p>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

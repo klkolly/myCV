@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SelfLearn</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <meta name="keywords" content="selflearn, computer science, web" />
+    <meta name="description" content="Free learn resources" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="stylesheet/roadMap.css" />
+    <!-- google fronts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue">
+        <a class="navbar-brand" href="mainpage.html">SelfLearn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="searchCourse.html">write review</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="myRodeMap.html">my plan</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="index.html">not log page</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- fixed  use div-->
+    <div class="cheerUp">
+        <em>“Sometimes the smallest step in the right direction ends up being the biggest step of your life. Tip toe if
+            you must, but take the step.”
+            use template here handbar
+        </em>
+
+    </div>
+    <div class="progressCards container">
+
+        <div class="card-deck ">
+
+
+            <div class="card" style="width: 14rem;">
+                <div class="progressCard card-body">
+                    <h5 class="card-title">
+                        C++ programming
+                    </h5>
+                    <h6 class="card-subtitle mb-2  scientificFields d-inline">
+
+                        <a href="">Physics</a>
+                    </h6>
+                    <progress value="19" max="100" class="d-block">
+                    </progress>
+                    <div class="card-text">week due: none</div>
+                    <a href="#" class="card-link continue">continue &rarr;</a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+                <div class="progressCard card-body">
+                    <h5 class="card-title">
+                        Software engineering
+                    </h5>
+                    <h6 class="card-subtitle mb-2  scientificFields d-inline">
+
+                        <a href="">Physics</a>
+                    </h6>
+                    <progress value="30" max="100" class="d-block">
+                    </progress>
+                    <div class="card-text">week due:none</div>
+                    <a href="#" class="card-link continue">continue &rarr;</a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+                <div class="progressCard card-body">
+                    <h5 class="card-title">
+                        Java programming
+                    </h5>
+                    <h6 class="card-subtitle mb-2  scientificFields d-inline">
+
+                        <a href="">Computer Science</a>
+                    </h6>
+                    <progress value="50" max="100" class="d-block">
+                    </progress>
+                    <div class="card-text">week due: quiz</div>
+                    <a href="#" class="card-link continue">continue &rarr;</a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+                <div class="progressCard card-body">
+                    <h5 class="card-title">
+                        name
+                    </h5>
+                    <h6 class="card-subtitle mb-2 scientificFields d-inline">
+
+                        <a href="">Physics</a>
+                    </h6>
+                    <progress value="90" max="100" class="d-block">
+                    </progress>
+                    <div class="card-text">week due: none</div>
+                    <a href="#" class="card-link continue">continue &rarr;</a>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- end cards -->
+    <!-- row year1 card to single process (mustch if finish blue process green behand yellow not sign black )
+    row year2
+    you can choose 3-4 class to learn (change mind)
+    if the pre request not learned then suggest class -->
+
+
+    <div class="text-center roadmap">
+        <div class="goal">
+            <p>my goal : get a computer science degree</p>
+            <progress value="19" max="90"></progress>
+            <p>(things finished/ allthing)</p>
+            <div class="roadmapDetailShow"><button type="button" class="btn btn-secondary">roadmap detail &darr;</button></div>
+        </div>
+
+        <div class="roadmapDetail" id="roadmapDetail">
+            <div class="levelBar year3 ">
+                <span class="levelName">year3</span>
+
+            </div>
+            <div class="levelBar year2 ">
+                <span class="levelName">year2</span>
+
+            </div>
+
+            <div class="levelBar  year1 ">
+                <span class="levelName">year1</span>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="learnedCourse">
+        <h3>add things i have learned</h3>
+        <div class="addlearn">
+            <span>+</span>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="javascript/myRoadMap.js">
+    </script>
+
+    <script src=""></script>
+
+    <!-- icon source -->
+    <script src="https://kit.fontawesome.com/e0eeda104e.js" crossorigin="anonymous"></script>
+    <!--Bootstrap js -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
